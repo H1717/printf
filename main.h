@@ -8,5 +8,6 @@
 #define BUFF_SIZE 1024
 
 int _printf(const char *format, ...);
+int _strlen(const char *);
 
 #endif
