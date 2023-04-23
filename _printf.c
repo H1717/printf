@@ -16,6 +16,11 @@ if (format == null)
 	return (-1);
 
 size = _strlen(format);
+if (size <= 0)
+	return (0);
+va_start(args, format);
+
+va_end(args);
 
 return (size);
 }
