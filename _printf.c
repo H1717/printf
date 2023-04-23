@@ -8,19 +8,14 @@
 */
 
 int _printf(const char *format, ...)
-int _strlen(const char *)
-
 {
 	int size;
 	va_list args;
-if{
-	format == null;
-	return(-1);
-	}
-else{
-	size =_strelen(format);
-}
 
+if (format == null)
+	return (-1);
+else
+	size = _strlen(format);
 
-	return (size);
+return (size);
 }
