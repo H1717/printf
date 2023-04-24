@@ -9,5 +9,7 @@
 
 int _printf(const char *format, ...);
 int _strlen(const char *str);
+int _putchar(char);
+int _buffer(char);
 
 #endif
