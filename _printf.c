@@ -12,7 +12,7 @@ int _printf(const char *format, ...)
 	int size;
 	va_list args;
 
-if (format == null)
+if (format == NULL)
 	return (-1);
 
 size = _strlen(format);
