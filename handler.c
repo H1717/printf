@@ -45,6 +45,7 @@ int _handler(const char *str, va_list list, int *i)
 	int size, j, n;
 	format formats[] = {
 		{'s', str_print}, {'c', char_print},
+		{'d', print_integer}, {'i', print_integer},
 	};
 
 	*i = *i + 1;
