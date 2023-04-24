@@ -6,6 +6,12 @@
 
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
+/**
+ * struct _format - Typedef struct
+ *
+ * @type: Format
+ * @f: The function associated
+ */
 typedef struct _format
 {
 	char type;
@@ -18,6 +24,7 @@ int buffer(char);
 int char_print(va_list list);
 int str_print(va_list list);
 int _handler(const char *str, va_list list, int *i);
+int handler(const char *str, va_list list);
 int print(char *);
 
 #endif

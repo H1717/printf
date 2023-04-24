@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _srtlen - calculate the length of a string
+* _strlen - calculate the length of a string
 * @str: string.
 *
 * Return: length.
@@ -19,10 +19,11 @@ return (i);
   *
   *Return:string length.
   */
-int print(char*str)
+int print(char *str)
 {
 	int i;
-	for(i = 0; str[i] != '\0'; ++i)
+
+	for (i = 0; str[i] != '\0'; ++i)
 		_putchar(str[i]);
 	return (i);
 }

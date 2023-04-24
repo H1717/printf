@@ -4,7 +4,7 @@
 * _printf - function that produces output according to a format.
 * @format: is a character string composed of zero or more directives.
 *
-*Returns: the number of characters printed.
+*Return: the number of characters printed.
 */
 
 int _printf(const char *format, ...)
@@ -19,7 +19,8 @@ size = _strlen(format);
 if (size <= 0)
 	return (0);
 va_start(args, format);
-
+size = handler(format, args);
+_putchar(-1);
 va_end(args);
 
 return (size);
