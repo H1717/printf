@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
   *print_integer-print a number in base 10
   *@list: number to print in base 10
@@ -9,7 +9,7 @@ int print_integer(va_list list)
 {
 	char *ptr_b;
 	int size;
-	ptr_b = itoa(vaarg(list,int),10);
+	ptr_b = itoa(va_arg(list, int),10);
 	size = print((ptr_b != NULL) ? ptr_b : "NULL");
 	return(size);
 }

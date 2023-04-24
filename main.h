@@ -28,5 +28,6 @@ int handler(const char *str, va_list list);
 int print(char *);
 int print_integer(va_list);
 int print_unsigned(va_list);
+char *itoa(long int, int);
 
 #endif
