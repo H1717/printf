@@ -11,5 +11,7 @@ int _printf(const char *format, ...);
 int _strlen(const char *str);
 int _putchar(char);
 int _buffer(char);
+int char_print(va_list list);
+int str_print(va_list list);
 
 #endif
