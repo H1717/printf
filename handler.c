@@ -46,9 +46,7 @@ int _handler(const char *str, va_list list, int *i)
 	format formats[] = {
 		{'s', str_print}, {'c', char_print},
 		{'d', print_integer}, {'i', print_integer},
-		{'b', binary_print}, {'u', unsigned_print},
-		{'o', oc_print}, {'x', low_hex_print},
-		{'X', upp_hex_print},
+		{'b', binary_print},
 	};
 
 	*i = *i + 1;
