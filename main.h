@@ -26,5 +26,7 @@ int str_print(va_list list);
 int _handler(const char *str, va_list list, int *i);
 int handler(const char *str, va_list list);
 int print(char *);
+int print_integer(va_list);
+int print_unsigned(va_list);
 
 #endif
