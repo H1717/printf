@@ -17,12 +17,6 @@ typedef struct _format
 	char type;
 	int (*f)(va_list);
 } format;
-typedef struct flags
-{
-	int plus;
-	int space;
-	int hash;
-} flags_;
 
 int _printf(const char *format, ...);
 int _strlen(const char *str);

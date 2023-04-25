@@ -2,8 +2,7 @@
 
 /**
  * print_S - Non printable characters
- * (0 < ASCII value < 32 or >= 127) are
- * @l: va_list arguments from _printf
+ * @list: va_list arguments from _printf
  *
  * Return: number of characteri
  */
