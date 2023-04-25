@@ -30,6 +30,9 @@ int print_integer(va_list);
 int print_unsigned(va_list);
 char *itoa(long int, int);
 int binary_print(va_list);
+int print_oct(va_list);
+int print_hex_low(va_list);
+int print_hex_upp(va_list);
 
 
 #endif
