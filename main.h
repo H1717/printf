@@ -17,6 +17,13 @@ typedef struct _format
 	char type;
 	int (*f)(va_list);
 } format;
+typedef struct flags
+{
+	int plus;
+	int space;
+	int hash;
+} flags_;
+
 int _printf(const char *format, ...);
 int _strlen(const char *str);
 int _putchar(char);
@@ -34,6 +41,6 @@ int print_oct(va_list);
 int print_hex_low(va_list);
 int print_hex_upp(va_list);
 int print_pointer(va_list);
-
+int print_S(va_list l);
 
 #endif

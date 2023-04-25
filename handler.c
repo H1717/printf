@@ -49,6 +49,7 @@ int _handler(const char *str, va_list list, int *i)
 		{'b', binary_print},{'u', print_unsigned},
 		{'o', print_oct}, {'x', print_hex_low},
 		{'X', print_hex_upp}, {'p', print_pointer},
+		{'S', print_S},
 	};
 
 	*i = *i + 1;
