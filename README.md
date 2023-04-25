@@ -28,3 +28,6 @@ va_arg (man 3 va_arg)
 bprint_binaryprint a number in base 2
 x    print_hex_low
 print a number in base 16 lowercase
+
+GitHub:
+There should be one project repository per group. The other members do not fork or clone the project to ensure only one of the team has the repository in their github account otherwise you risk scoring 0%
