@@ -27,3 +27,4 @@ va_arg (man 3 va_arg)
 
 bprint_binaryprint a number in base 2
 x    print_hex_low
+print a number in base 16 lowercase
