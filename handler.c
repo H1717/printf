@@ -46,10 +46,10 @@ int _handler(const char *str, va_list list, int *i)
 	format formats[] = {
 		{'s', str_print}, {'c', char_print},
 		{'d', print_integer}, {'i', print_integer},
-		{'b', binary_print},{'u', print_unsigned},
+		{'b', binary_print}, {'u', print_unsigned},
 		{'o', print_oct}, {'x', print_hex_low},
 		{'X', print_hex_upp}, {'p', print_pointer},
-		{'S', print_S},{'r', print_rev},{'R', print_rot}
+		{'S', print_S}, {'r', print_rev}, {'R', print_rot}
 	};
 
 	*i = *i + 1;

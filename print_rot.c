@@ -1,6 +1,6 @@
 #include "main.h"
 
-int print_rot(va_list list);
+int rot13(char *s);
 /**
  * print_rot - Prints the rot13'ed string
  * @list: String
