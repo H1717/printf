@@ -35,7 +35,7 @@ int print_oct(va_list);
 int print_hex_low(va_list);
 int print_hex_upp(va_list);
 int print_pointer(va_list);
-int print_S(va_list l);
+int print_S(va_list list);
 int  print_rev(va_list list);
 int print_rot(va_list list);
 int rot13(char *s);
